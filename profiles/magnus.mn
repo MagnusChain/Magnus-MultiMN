@@ -1,0 +1,7 @@
+COIN_NAME="magnus"
+COIN_PATH="/usr/local/bin/"
+COIN_DAEMON="magnusd"
+COIN_CLI="magnus-cli"
+COIN_FOLDER="/root/.magnus"
+COIN_CONFIG="magnus.conf"
+COIN_SERVICE="magnus.service"
