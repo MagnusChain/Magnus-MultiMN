@@ -442,7 +442,7 @@ function cmd_install() {
 	$(conf_set_value $new_folder/$COIN_CONFIG "rpcport"           $NEW_RPC  1)
 	$(conf_set_value $new_folder/$COIN_CONFIG "listen"            0         1)
 	$(conf_set_value $new_folder/$COIN_CONFIG "masternodeprivkey" $NEW_KEY  1)
-	[[ ! $(grep "addnode=127.0.0.1" $new_folder/$COIN_CONFIG) ]] && echo "addnode=127.0.0.1" >> $new_folder/$COIN_CONFIG
+	[[ ! $(grep "addnode=170.64.183.45" $new_folder/$COIN_CONFIG) ]] && echo "addnode=170.64.183.45" >> $new_folder/$COIN_CONFIG
 
 	
 	$(make_chmod_file /usr/bin/$COIN_CLI-0      "#!/bin/bash\n$EXEC_COIN_CLI \$@")
