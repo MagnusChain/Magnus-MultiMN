@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: MagnusOfficial
+# Author: Magnus
 # Source: https://github.com/MagnusChain/Magnus-MultiMN
 
 # TODO:
